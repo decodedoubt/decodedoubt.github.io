@@ -499,7 +499,7 @@ blockquote{background: #fcfcfc;border-left:3px solid var(--maincolor);margin-lef
 .sect-left .list-label-widget-content li a,.sect-left .list-label-widget-content li a:before{color: #EEEEEE}
 .sect-left .list-label-widget-content li a:hover{color:var(--maincolor)}
 .sect-left .list-label-widget-content li:first-child a:before{top: -6px}
-.footer-wrapper{background-color:RGBA(0, 0, 0, 0.2);color:#eee;display:block;padding:15px 0 13px;width:100%;overflow:hidden}
+.footer-wrapper{background-color:var(--maincolor) !important;color:#eee;display:block;padding:15px 0 13px;width:100%;overflow:hidden}
 .footer-wrapper .footer-sec{margin:0 auto}
 .footer-wrapper .copyright{font-size:12px;line-height:30px}
 .footer-wrapper .copyright a{color:#fff;font-weight:400;letter-spacing: 0.3px;padding-left:5px}
