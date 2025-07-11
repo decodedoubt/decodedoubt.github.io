@@ -1,17 +1,78 @@
 ---
 layout: default
 ---
+<div class="recent-post-box">
+  <div class="posts-title">
+    <h2>
+      <a href="/search?&max-results=8">Recent Posts</a>
+    </h2>
+    <a class="posts-link" href="/search?&max-results=8">View More</a>
+  </div>
 
-<div class="home">
-  <h1>{{ site.title }}</h1>
-  <div class="posts">
-    {% for post in site.posts %}
-    <div class="post-card">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-      <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
-      <a class="read-more" href="{{ post.url }}">पूरा पढ़ें →</a>
+  <div class="main section" id="main" name="Main Posts">
+    <div class="widget Blog" data-version="1" id="Blog1">
+      <div class="blog-posts hfeed">
+
+        {% for post in site.posts limit:8 %}
+        <div class="post-outer">
+          <div class="post">
+            <div class="block-image">
+              <div class="thumb">
+                <a href="{{ post.url }}" style="background:url({{ post.image | default: '/assets/default.jpg' }}) no-repeat center center;background-size:cover">
+                  <span class="thumb-overlay"></span>
+                </a>
+              </div>
+              <div class="postags">
+                {% for tag in post.tags %}
+                <a class="{{ tag }}" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+                {% endfor %}
+              </div>
+            </div>
+
+            <div class="post-header">
+            </div>
+
+            <article>
+              <font class="retitle">
+                <h2 class="post-title entry-title">
+                  <span><a href="{{ post.url }}">{{ post.title }}</a></span>
+                </h2>
+              </font>
+
+              <div class="date-header">
+                <div class="recent-auther">
+                  <a class="g-profile" href="#" rel="author" title="{{ post.author | default: site.author }}">
+                    <span itemprop="name">{{ post.author | default: site.author }}</span>
+                  </a>
+                  <a class="timestamp-link" href="{{ post.url }}" rel="bookmark" title="permanent link">
+                    <span class="published timeago" itemprop="datePublished dateModified" title="{{ post.date | date_to_xmlschema }}">
+                      {{ post.date | date: "%B %d, %Y" }}
+                    </span>
+                  </a>
+                </div>
+
+                <div class="resumo">
+                  <span>{{ post.excerpt | strip_html | truncate: 150 }}</span>
+                  <a aria-label="Read more:{{ post.title }}" class="read-more" href="{{ post.url }}">
+                    Read More
+                    <svg fill="none" stroke="white" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" viewBox="3 3 18 18">
+                      <path d="M13 17l5-5-5-5M6 17l5-5-5-5"></path>
+                    </svg>
+                  </a>
+                </div>
+
+                <div style="clear: both;"></div>
+              </div>
+            </article>
+
+            <div style="clear:both"></div>
+            <div class="post-footer">
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
     </div>
-    {% endfor %}
   </div>
 </div>
