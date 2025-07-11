@@ -12,13 +12,21 @@
   {% include topnavbar.html %}
   {% include header.html %}
   {% include mainmenu.html %}
+  <div id="outer-wrapper" class="index home"></div>
   {%include newsticker.html %}
+<div class="row" id="content-wrapper"></div>
+<div id="main-wrapper"></div>
+
   <div class="container">
     <div class="content">
       {{ content }}
     </div>
+
+</div>
     {% include sidebar.html %}
-  </div>
+</div>
+</div>
   {% include footer.html %}
+</div>
 </body>
 </html>
