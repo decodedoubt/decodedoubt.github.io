@@ -7,3 +7,38 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* TOC hidden by default */
+.toc .toc__menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  margin: 0;
+}
+
+/* TOC open */
+.toc.open .toc__menu {
+  max-height: 1000px; /* adjust if needed */
+  margin: 1em 0;
+}
+
+/* Cursor style for toggle */
+.toc-toggle {
+  cursor: pointer;
+}
+
+/* Arrow indicators */
+.toc-toggle::after {
+  content: ' ⯈';
+}
+.toc.open .toc-toggle::after {
+  content: ' ⯆';
+}
+
+/* Hide TOC on wider screens */
+@media screen and (min-width: 801px) {
+  .toc {
+    display: none !important;
+  }
+}
