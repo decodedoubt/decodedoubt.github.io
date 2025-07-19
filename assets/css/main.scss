@@ -35,7 +35,7 @@ search: false
 
 /* Show only on smaller screens */
 @media (min-width: 801px) {
-  .toc {
+  .toc ul{
     display: none !important;
   }
 }
