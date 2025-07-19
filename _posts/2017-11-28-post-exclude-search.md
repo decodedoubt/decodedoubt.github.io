@@ -12,7 +12,7 @@ This post should not appear in the search index because it has the following YAM
 ```yaml
 search: false
 ```
-
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN0FUfKf4sOA10ckYlA4I8MB195g20XKhEsQ_UV2nxdUjGjbVQABzgLPzgtHIg72hRPRTOEq_EiLteMPkZgWu-TJORuu30UYZtyJCnwOZk5yDrT-tlXhNCyZ22XX0yZ2zSQktatVoynMQ/s800-rw/structure-of-human-heart.webp" style="margin-left: auto; margin-right: auto;"><img alt="structure-of-human-heart" border="0" data-original-height="356" data-original-width="640" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN0FUfKf4sOA10ckYlA4I8MB195g20XKhEsQ_UV2nxdUjGjbVQABzgLPzgtHIg72hRPRTOEq_EiLteMPkZgWu-TJORuu30UYZtyJCnwOZk5yDrT-tlXhNCyZ22XX0yZ2zSQktatVoynMQ/s800-rw/structure-of-human-heart.webp" title="structure-of-human-heart"></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Structure of Human Heart</td></tr></tbody></table>
 **Note:** `search: false` only works to exclude posts when using Lunr as a search provider.
 {: .notice--info}
 
