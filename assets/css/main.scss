@@ -9,35 +9,32 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-/* TOC hidden by default */
+/* TOC menu hidden initially */
 .toc .toc__menu {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease;
+  transition: max-height 0.4s ease-in-out;
   margin: 0;
+  padding: 0;
 }
 
-/* TOC open */
+/* When open class is added, TOC shows */
 .toc.open .toc__menu {
-  max-height: 1000px; /* adjust if needed */
-  margin: 1em 0;
+  max-height: 1000px; /* enough height */
+  margin: 0.5em 0;
 }
 
-/* Cursor style for toggle */
-.toc-toggle {
+/* Make header clickable */
+.toc header {
   cursor: pointer;
+  padding: 0.5em 0;
+  background: #f0f0f0;
+  font-weight: bold;
+  border-left: 3px solid #007bff;
 }
 
-/* Arrow indicators */
-.toc-toggle::after {
-  content: ' ⯈';
-}
-.toc.open .toc-toggle::after {
-  content: ' ⯆';
-}
-
-/* Hide TOC on wider screens */
-@media screen and (min-width: 801px) {
+/* Show only on smaller screens */
+@media (min-width: 801px) {
   .toc {
     display: none !important;
   }

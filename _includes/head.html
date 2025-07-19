@@ -22,16 +22,19 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const toggleHeader = document.querySelector(".toc .toc-toggle");
-    const tocNav = document.querySelector(".toc");
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector('.toc');
+  const toggle = toc?.querySelector('header');
+  const menu = toc?.querySelector('.toc__menu');
 
-    if (toggleHeader && tocNav) {
-      toggleHeader.addEventListener("click", function () {
-        tocNav.classList.toggle("open");
-      });
-    }
-  });
+  if (toggle && menu) {
+    toc.classList.remove('open'); // ensure hidden initially
+
+    toggle.addEventListener('click', function () {
+      toc.classList.toggle('open');
+    });
+  }
+});
 </script>
 
 
