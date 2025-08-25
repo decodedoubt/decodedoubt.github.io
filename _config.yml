@@ -138,6 +138,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fab fa-fw fa-link"
+      url: https://www.decodedoubt.in
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: https://x.com/krishankant47
@@ -146,13 +149,10 @@ footer:
       url: https://www.youtube.com/@decodedoubt
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
-      # url: https://t.me/decodedoubt
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: https://t.me/decodedoubt
     - label: "Instagram"
-      icon: "https://www.instagram.com/decodedoubt.in"
-      # url:
+      icon: "fab fa-fw fa-instagram"
+      url: https://www.instagram.com/decodedoubt.in
   since: "2013"
 
 
