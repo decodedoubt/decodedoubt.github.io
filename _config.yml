@@ -26,7 +26,7 @@ url                      : "https://decodedoubt.github.io" # the base hostname &
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjarhYODgyVt5eLfH4xFHINW8op7qKIjda7z0pCStp9tq7Zh6WOO_adCfnb21S_hEB8o6qh7Pb5AmApQ6nXn5gSPtcCjp7RsZ8D8ozJ85E24hG0LBmViOC8SGsmu88xbI8FbMa6gi-BfaphtlC_6gAt68nICLJ7SjXyysD1mq9-6Pk6Cw/s400/Screenshot_20250817-010239~3.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
