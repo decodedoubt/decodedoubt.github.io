@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 classes: wide
-permalink: "/docs/faq/"
+permalink: "/faq/"
 sidebar:
   nav: docs
 last_modified_at: '2024-04-24T00:51:32+08:00'

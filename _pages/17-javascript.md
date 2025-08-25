@@ -1,6 +1,6 @@
 ---
 title: "JavaScript"
-permalink: /docs/javascript/
+permalink: /javascript/
 excerpt: "Instructions for customizing and building the theme's scripts."
 last_modified_at: 2021-07-23T09:33:35-04:00
 ---
