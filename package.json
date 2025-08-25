@@ -1,18 +1,18 @@
 {
-  "name": "jekyll-theme-chirpy",
+  "name": "decode-doubt",
   "version": "7.3.1",
   "description": "A minimal, responsive, and feature-rich Jekyll theme for technical writing.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+    "url": "git+https://github.com/cotes2020/decode-doubt.git"
   },
   "author": "Cotes Chung",
   "license": "MIT",
   "since": 2019,
   "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+    "url": "https://github.com/cotes2020/decode-doubt/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
+  "homepage": "https://github.com/cotes2020/decode-doubt/",
   "type": "module",
   "scripts": {
     "build": "concurrently npm:build:*",

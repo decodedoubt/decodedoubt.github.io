@@ -28,7 +28,7 @@ This approach simplifies upgrades, isolates unnecessary files, and is perfect fo
 This approach is convenient for modifying features or UI design, but presents challenges during upgrades. So don't try this unless you are familiar with Jekyll and plan to heavily modify this theme.
 
 1. Sign in to GitHub.
-2. [Fork the theme repository](https://github.com/cotes2020/jekyll-theme-chirpy/fork).
+2. [Fork the theme repository](https://github.com/cotes2020/decode-doubt/fork).
 3. Name the new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
 
 ## Setting up the Environment
@@ -91,7 +91,7 @@ Social contact options are displayed at the bottom of the sidebar. You can enabl
 
 ### Customizing the Stylesheet
 
-To customize the stylesheet, copy the theme's `assets/css/jekyll-theme-chirpy.scss`{: .filepath} file to the same path in your Jekyll site, and add your custom styles at the end of the file.
+To customize the stylesheet, copy the theme's `assets/css/decode-doubt.scss`{: .filepath} file to the same path in your Jekyll site, and add your custom styles at the end of the file.
 
 ### Customizing Static Assets
 

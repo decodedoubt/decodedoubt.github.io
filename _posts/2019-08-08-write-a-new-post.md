@@ -483,7 +483,7 @@ Can be referenced as \eqref{eq:label_name}.
 ```
 
 > Starting with `v7.0.0`, configuration options for **MathJax** have been moved to file `assets/js/data/mathjax.js`{: .filepath }, and you can change the options as needed, such as adding [extensions][mathjax-exts].  
-> If you are building the site via `chirpy-starter`, copy that file from the gem installation directory (check with command `bundle info --path jekyll-theme-chirpy`) to the same directory in your repository.
+> If you are building the site via `chirpy-starter`, copy that file from the gem installation directory (check with command `bundle info --path decode-doubt`) to the same directory in your repository.
 {: .prompt-tip }
 
 [mathjax-exts]: https://docs.mathjax.org/en/latest/input/tex/extensions/index.html

@@ -8,7 +8,7 @@ body:
       options:
         - label: >-
             I have read and accepted the
-            [contributing guidelines](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md).
+            [contributing guidelines](https://github.com/cotes2020/decode-doubt/blob/master/docs/CONTRIBUTING.md).
           required: true
 
   - type: dropdown
@@ -17,7 +17,7 @@ body:
       label: How did you create the site?
       options:
         - Generated from `chirpy-starter`
-        - Built from `jekyll-theme-chirpy`
+        - Built from `decode-doubt`
     validations:
       required: true
 
@@ -53,7 +53,7 @@ body:
       value: |
         - Ruby: <!-- run `ruby -v` -->
         - Jekyll: <!-- run `bundle exec jekyll -v` -->
-        - Chirpy: <!-- run `bundle info jekyll-theme-chirpy` -->
+        - Chirpy: <!-- run `bundle info decode-doubt` -->
     validations:
       required: true
 

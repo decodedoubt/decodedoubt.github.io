@@ -10,7 +10,7 @@ opt_pkg=false # option for building gem package
 MAIN_BRANCH="master"
 RELEASE_BRANCH="production"
 
-GEM_SPEC="jekyll-theme-chirpy.gemspec"
+GEM_SPEC="decode-doubt.gemspec"
 NODE_SPEC="package.json"
 CHANGELOG="docs/CHANGELOG.md"
 CONFIG="_config.yml"
