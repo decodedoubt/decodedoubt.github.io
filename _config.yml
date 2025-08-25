@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Decode Doubt # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: A text-focused Decode Doubt # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjarhYODgyVt5eLfH4xFHINW8op7qKIjda7z0pCStp9tq7Zh6WOO_adCfnb21S_hEB8o6qh7Pb5AmApQ6nXn5gSPtcCjp7RsZ8D8ozJ85E24hG0LBmViOC8SGsmu88xbI8FbMa6gi-BfaphtlC_6gAt68nICLJ7SjXyysD1mq9-6Pk6Cw/s300/Screenshot_20250817-010239~3.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
