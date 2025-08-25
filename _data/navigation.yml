@@ -1,8 +1,6 @@
 # main links
 main:
-  - title: "Blog"
-    url: https://decodedoubt.in
-  - title: "About"
+  - title: "About decode doubt"
     url: hhttps://decodedoubt.github.io/about/
   - title: "Sample Posts"
     url: /year-archive/
@@ -10,5 +8,7 @@ main:
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
+  - title: "Blog"
+    url: https://decodedoubt.in
   - title: Blog Sitemap
     url: https://www.decodedoubt.in/p/decode-doubt-sitemap.html
